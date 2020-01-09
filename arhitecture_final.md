@@ -235,7 +235,6 @@ You won't often see N-Layer implemented as anything less that 3 layers, the prev
 Yet the organization of MVC does not need to be moved directly into the N-Layer, what in MVC is a single Model layer might be better implemented as multiple layers some dealing with DB access others with mapping to DTO or view-models.
 
 ---
-
 ## N-Layer
 
 A key aspect of N-Layer is that each layer knows only about it's direct neighbors in the stack of layers.
@@ -478,7 +477,7 @@ Six guiding constraints define a RESTful system:
 
 - code on demand (optional)
 
-- uniform interface (resources +HTTP)
+- uniform interface (resources + HTTP)
 
 ---
 
@@ -660,3 +659,5 @@ I'll leave you with one final quote:
 - Frank Buschmann, ‎Kevlin Henney, ‎Douglas C. Schmidt (2007) Pattern-Oriented Software Architecture, On Patterns and Pattern Languages
 - [Monolith and Microservices](https://microservices.io/patterns/monolithic.html)
 - [Monoltih vs Microservices](https://www.n-ix.com/microservices-vs-monolith-which-architecture-best-choice-your-business/)
+- [Example of the combined architecture patterns](https://infallible-tesla-6c3e51.netlify.com)
+- [Source code for the example](https://github.com/GBora/arhitecture_example)
