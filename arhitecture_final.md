@@ -3,7 +3,6 @@ marp: false
 size: 4:3
 theme: default
 paginate: true
-class: invert
 ---
 
 # Node Architecture
